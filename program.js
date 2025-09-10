@@ -10,7 +10,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var marker = L.marker([4.6665620082695645, -74.13198905022493]).addTo(map);
 var marker = L.marker([4.291401649833343, -70.61174617967207]).addTo(map);
 
-
 // Función para cargar un archivo GeoJSON en un mapa Leaflet
 function cargarGeoJSON(Paradero_SITP.geojson, map, estiloPersonalizado) {
     /*
